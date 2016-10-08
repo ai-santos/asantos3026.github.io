@@ -31,7 +31,7 @@ ListStore = {
   addItem: function(itemDescription) {
     var creationRequest = $.ajax({
       type: 'POST',
-      url: "http://listalous.herokuapp.com/lists/AILEEN-PROGRAMMING-STUDY-LIST/items",
+      url: "https://listalous.herokuapp.com/lists/AILEEN-PROGRAMMING-STUDY-LIST/items",
       data: { description: itemDescription, completed: false }
     })
 
